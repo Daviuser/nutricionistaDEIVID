@@ -1,0 +1,10 @@
+.main-servicos .conteiner1{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.main-servicos .conteiner1 img{
+    border-radius: 8px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}

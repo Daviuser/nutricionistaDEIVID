@@ -1,0 +1,105 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .conteiner1{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+main .conteiner1 .box1{
+    width: 500px;
+    border-radius: 5px;
+}
+main .conteiner1 .box1 form{
+    display: flex;
+    flex-direction: column;
+}
+main .conteiner1 .box1 form label{
+    width: 110px;
+    line-height: 2.8rem;
+    color: white;
+    cursor: text;
+}
+main .conteiner1 .box1 form .caixa_input{
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 10px;
+    border: 2px solid transparent;
+    outline: 2px solid transparent;
+    background-color: white;
+    transition: 0.2s;
+}
+main .conteiner1 .box1 form .res_input{
+    margin-top: 0.4rem;
+    transition: 0.2s;
+}
+main .conteiner1 .box1 form .caixa_input:focus{
+    border: 2px solid #06ca06;
+    transition: 0.2s;
+}
+main .conteiner1 .box1 form .caixa_textarea{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    border: 2px solid transparent;
+    outline: 2px solid transparent;
+    resize: vertical;
+    transition: 0.2s;
+}
+main .conteiner1 .box1 form .caixa_textarea:focus{
+    border: 2px solid #06ca06;
+    transition: 0.2s;
+}
+main .conteiner1 .box1 .form_botao{
+    color: white;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+main .conteiner1 .box1 .form_botao:hover{
+    color: #06ca06;
+    border: 2px solid #06ca06;
+    background-color: white;
+    transition: 0.2s;
+}
+main .conteiner1 .box1 .form_botao:focus{
+    color: #06ca06;
+    border: 2px solid #06ca06;
+    outline: none;
+    background-color: white;
+    transition: 0.2s;
+}
+main .conteiner1 .box2{
+    width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+main .conteiner1 .box2 iframe{
+    height: 100%; width: 100%;
+}
+@media screen and (max-width: 1200px){
+    main .conteiner1{
+        align-items: center;
+        flex-direction: column;
+        max-width: 750px;
+    }
+    main .conteiner1 .box1{
+        width: 100%;
+    }
+    main .conteiner1 .box2{
+        height: 550px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    main .conteiner1{
+        max-width: 100%;
+    }
+}

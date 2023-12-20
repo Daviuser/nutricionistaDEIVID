@@ -1,0 +1,28 @@
+.main-home .conteiner1{
+    max-width: 1150px;
+    margin: auto;
+}
+.main-home .conteiner1 .box1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+.main-home .conteiner1 .box1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    line-height: 2rem;
+}
+.main-home .conteiner1 .box1 ul li{
+    display: flex;
+    gap: 1rem;
+}
+.main-home .conteiner1 .box1 ul li i{
+    font-size: 1.4rem;
+}
+
