@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/home.css">
+        <link type="image/x-icon" rel="shortcut icon" href="assets/favicon/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <title>Nutricionista Deivid Santiago</title>
+    </head>
+    
+    <body>
+        <header>
+            <section class="conteiner1">
+                <div class="box1">
+                    <a href="home.html" 
+                       target="_self">
+                        <img class="" 
+                             src="./assets/images/logo.jpg" 
+                             alt="Logo do Nutricionista Deivid Santiago">
+                    </a>
+                </div>
+
+                <!-- Nav Desktop-->
+                <nav class="nav-site">
+                    <ul>
+                        <li>
+                            <a href="home.html" target="_self">Home</a>
+                        </li>
+                        <li>
+                            <a href="sobre.html" target="_self">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="servicos.html" target="_self">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="contato.html" target="_self">Contato</a>
+                        </li>
+                        <li class="icon-menu">
+                            <button onclick="openMenu()">
+                                <i class="bi bi-list"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <!-- Nav Mobile-->
+        <nav id="nav-mobile">
+            <ul>
+                <li>
+                    <a href="home.html" 
+                       target="_self">Home
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre.html" 
+                       target="_self">Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="servicos.html" 
+                       target="_self">Serviços
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html" 
+                       target="_self">Contato
+                    </a>
+                </li>
+                <li class="icon-menu-exit">
+                    <button onclick="closeMenu()">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-home">
+            <section class="conteiner1">
+                <div class="box1">
+                    <h1 class="titulo1">Fico muito feliz que tenha chegado até aqui</h1>
+                    <p  class="paragrafo">
+                        Você está há um passo de uma vida mais saudável. Entre em contato com meu atendimento especializado pelo telefone abaixo ou informe seus dados na página de contato que ligaremos para você agendar a sua consulta.
+                    </p>
+                    <p  class="paragrafo">
+                        Confira o E-book de Autoajuda para eliminar peso com bônus de Receitas deliciosa saudáveis, opções sem glúten e com pouco carboidrato disponíveis.
+                    </p>
+                    <ul>
+                        <li>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <p>
+                                R. Alan kardec, 113a - Centro, Santaluz -BA 48880-000, Brasil
+                            </p>
+                        </li>
+                        <li>
+                            <i class="bi bi-whatsapp"></i>
+                            <p>
+                                +55 75 9 9882-2910
+                            </p>
+                        </li>
+                        <li>
+                            <i class="bi bi-clock-fill"></i>
+                            <p>
+                                Para ter uma consulta online ou presencial, apenas com agendamento.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="conteiner1">
+                <ul>
+                    <li>
+                        <a class="btn-social"
+                           href="" 
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social" 
+                                 src=""
+                                 loading="lazy" 
+                                 alt="Facebook"
+                                 width="40"
+                                 height="40">
+                            <p>Facebook</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-social" 
+                           href="https://www.instagram.com/deivid.nutri?igshid=OGQ5ZDc2ODk2ZA==" 
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social" 
+                                 src=""
+                                 loading="lazy" 
+                                 alt="Instagram"
+                                 width="40"
+                                 height="40">
+                            <p>Instagram</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-social"
+                           href=""
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social" 
+                                 src=""
+                                 loading="lazy" 
+                                 alt="Linkedin"
+                                 width="40"
+                                 height="40">
+                            <p>Linkedin</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-social"
+                           href="" 
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social" 
+                                 src="" 
+                                 loading="lazy"
+                                 alt="Tik Tok"
+                                 height="40"
+                                 width="40">
+                            <p>Tik Tok</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <span>
+                © 2023 | Todos os direitos reservados | 
+                <a href=""
+                   target="_blank"
+                   rel="noopener noreferrer">
+                   Desenvolvido por Davi Santiago.
+                </a>
+            </span>
+        </footer>
+
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

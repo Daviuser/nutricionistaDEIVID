@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/contato.css">
+        <link type="image/x-icon" rel="shortcut icon" href="assets/favicon/favicon.ico">
+        <title>Nutricionista Deivid Santiago</title>
+    </head>
+    
+    <body>
+        <header>
+            <section class="conteiner1">
+                <div class="box1">
+                    <a href="home.html" 
+                       target="_self">
+                        <img class="logo_site" 
+                             src="./assets/images/logo.jpg" 
+                             alt="">
+                    </a>
+                </div>
+
+                <!-- Nav Desktop-->
+                <nav class="nav-site">
+                    <ul>
+                        <li>
+                            <a href="home.html" 
+                               target="_self">Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sobre.html" 
+                               target="_self">Sobre
+                            </a>
+                        </li>
+                        <li>
+                            <a href="servicos.html" 
+                               target="_self">Serviços
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contato.html" 
+                               target="_self">Contato
+                            </a>
+                        </li>
+                        <li class="icon-menu">
+                            <button onclick="openMenu()">
+                                <i class="bi bi-list"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <!-- Nav Mobile-->
+        <nav id="nav-mobile">
+            <ul>
+                <li>
+                    <a href="home.html" 
+                       target="_self">Home
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre.html" 
+                       target="_self">Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="servicos.html" 
+                       target="_self">Serviços
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html" 
+                       target="_self">Contato
+                    </a>
+                </li>
+                <li class="icon-menu-exit">
+                    <button onclick="closeMenu()">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-contato">
+            <section class="conteiner1">
+                <div class="box1">
+                    <h1 class="titulo1">Contato</h1>
+                    <p  class="paragrafo">
+                        Fico muito feliz que tenha chegado até aqui. Você está há um passo de uma vida mais saudável. Entre em contato com meu atendimento especializado pelo telefone abaixo ou informe seus dados de contato que ligaremos para você para agendar sua consulta.
+                    </p>
+                    <form action="" method="post" name="form1">
+                        <label for="txt-nome">Nome:</label>
+                        <input id="txt-nome" 
+                               class="caixa_input" 
+                               type="text" 
+                               name="txtnome">
+                        <span class="res_input"></span>
+
+                        <label for="txt-email">E-mail:</label>
+                        <input id="txt-email" 
+                               class="caixa_input" 
+                               type="email" 
+                               name="txtemail">
+                        <span class="res_input"></span>
+                        
+                        <label for="txt-telefone">Telefone:</label>
+                        <input id="txt-telefone" 
+                               class="caixa_input" 
+                               type="text" 
+                               name="txttelefone">
+                        <span class="res_input"></span>
+
+                        <label for="txt-mensagem">Mensagem:</label>
+                        <textarea 
+                               id="txt-mensagem" 
+                               class="caixa_textarea" 
+                               name="txtmensagem" 
+                               cols="40" 
+                               rows="10">
+                        </textarea>
+
+                        <input class="form_botao" 
+                               type="button" 
+                               value="Enviar" 
+                               onclick="verificar()">
+                    </form>
+                </div>
+                <div class="box2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.1093441750627!2d-39.37793402380927!3d-11.253366099056366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x713065a7cddef1b%3A0xc5c7ad88e8769165!2sR.%20Alan%20Kardec%2C%20113a%20-%20Centro%2C%20Santaluz%20-%20BA%2C%2048880-000!5e0!3m2!1spt-BR!2sbr!4v1703098351320!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="conteiner1">
+                <ul>
+                    <li>
+                        <a class="btn-social"
+                           href="" 
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social" 
+                                 src=""
+                                 loading="lazy"
+                                 alt="Facebook"
+                                 width="40"
+                                 height="40">
+                            <p>Facebook</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-social"
+                           href="https://www.instagram.com/deivid.nutri?igshid=OGQ5ZDc2ODk2ZA==" 
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social" 
+                                 src=""
+                                 loading="lazy"
+                                 alt="Instagram"
+                                 width="40"
+                                 height="40">
+                            <p>Instagram</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-social"
+                           href=""
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social"
+                                 src="" 
+                                 loading="lazy"
+                                 alt="Linkedin"
+                                 width="40"
+                                 height="40">
+                            <p>Linkedin</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-social"
+                           href="" 
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img class="icon-social" 
+                                 src=""
+                                 loading="lazy"
+                                 alt="Tik Tok"
+                                 width="40"
+                                 height="40">
+                            <p>Tik Tok</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <span>
+                © 2023 | Todos os direitos reservados | 
+                <a href=""
+                   target="_blank"
+                   rel="noopener noreferrer">
+                   Desenvolvido por Davi Santiago.
+                </a>
+            </span>
+        </footer>
+
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
